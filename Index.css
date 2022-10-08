@@ -1,0 +1,408 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(182, 184, 179, 0.308);
+}
+
+/* starting here */
+/* main header here */
+/* main logo codding */
+
+
+
+
+
+
+
+
+
+.main-header{
+    /* border: 1px solid #ff0000; */
+    /* padding: 6px 0; */
+    height: 49px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.main-header-left-1{
+float: left;
+margin-top: 5px;
+/* border: 1px solid yellow; */
+}
+.main-header-logo{
+margin-left: 20px;    
+font-size: large;
+font-family: serif;
+font-weight: bold;
+color: rgba(0, 0, 0, 0.959);
+float: left;
+}
+.main-header-logo i{
+    color: rgba(231, 10, 10, 0.822);
+    font-size:30px;
+}
+
+.main-header-left-2{
+    float: left;
+    /* border: 1px solid green; */
+    margin-top: 17px;
+    margin-left: 7px;
+}
+.listparent{
+    list-style: none;
+    text-decoration: none;
+}
+.listparent li{
+display: inline-block;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+font-size: small;
+font-weight: bold;
+color: rgb(82, 80, 80);
+text-align: center;
+margin: 0  25px 0 30px;
+}
+.listparent li:hover{
+    color: rgba(240, 59, 59, 0.938);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* list items or logo yahan pr khatam ha */
+
+/*  */
+/*  */
+/*  */
+
+/* login or sinup vala option yahan sa start ha */
+
+
+.main-header-right-1{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 500px;
+    float: right;
+}
+.main-header-right-1-icon-1{
+float: right;
+font-size: larger;
+font-weight: bolder;
+/* border: 1px solid black; */
+padding: 14px;
+}
+.main-header-right-1-1{
+    /* border: 1px solid green; */
+    float: right;
+    background-color: #e72828f3;
+    color: white;
+}
+.main-header-right-1-1:hover{
+    background-color: rgba(82, 78, 78, 0.685);
+    cursor: pointer;
+}
+.main-header-right-1-1 h2{
+    font-size: large;
+    font-weight: bolde;
+    padding: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main-header-right-1-2{
+    /* border: 1px solid green; */
+    float: right;
+    background-color: rgba(230, 226, 226, 0.849);
+}
+.main-header-right-1-2:hover{
+    background-color: rgba(82, 78, 78, 0.685);
+    color: white;
+    cursor: pointer;
+}
+.main-header-right-1-2 h2{
+    font-size: large;
+    font-weight: bolde;
+    padding: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-header-right-1-icon-2{
+        float: right;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 14px;
+        cursor: pointer;
+}
+
+
+.main-header-right-1-icon-2 tittle{
+    background-color: rgb(211, 40, 40);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* header yahan pr kahatam ha */
+
+
+/* section tag yahan sa start */
+
+
+
+
+.section{
+    background: url(/color.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+}
+
+.section .p1{
+    color: white;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+ .section .p2{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 6px;
+ }
+ .section div{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+ }
+
+
+
+
+
+
+
+
+
+ /* main tag yahan sa start ha  */
+
+
+
+.main{
+    border: 1px solid red;
+    width: 90%;
+    margin: 37px 0 0 5%;
+    columns: 6;
+}
+
+.main div{
+    border: 1px solid black;
+
+}
+
+
+
+
+
+
+/* yahan pr box valy divs ka work khatam ho gia ha */
+
+
+
+
+.container{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    background-color: white;
+    padding-bottom: 760px;
+}
+
+
+.container-div-left{
+    float: left;
+    /* border: 1px solid green; */
+    margin: 210px 0 180px 230px;
+}
+.container-div-left img{
+    /* height: 800px; */
+    width: 450px;
+}
+
+
+
+
+.container-div-right{
+    float: right;
+    /* border: 1px solid green; */
+    margin: 150px 230px 0 0;
+}
+.container-div-right h5{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: montserrat, sans-serif;
+    color: rgba(26, 25, 25, 0.877);
+    margin-right: 70px;
+}
+
+
+
+.bgcolor{
+    background-color: rgba(233, 227, 227, 0.445);
+    border-radius: 5px;
+}
+
+
+.container-divs{
+    border: 0.5px solid rgba(233, 227, 227, 0.445);
+    margin-top: 6px;
+}
+
+
+.container-divs a{
+    color: rgb(241, 38, 38);
+    /* font-size: 16px; */
+}
+.container-divs a:hover{
+    color: rgb(48, 49, 51);
+}
+
+.bghovercolor:hover{
+    background-color:rgba(233, 227, 227, 0.445);
+    border-radius: 5px;
+}
+
+.container-divs h6{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(37, 37, 37);
+    font-weight: 12;
+    margin: 25px 0 0 16px;
+}
+.container-divs p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgba(39, 38, 38, 0.918);
+    margin: 10px 0 20px 16px ;
+}
+
+
+
+
+
+
+/*   ' the PDF software trusted by millions of users ' vala div start here */
+
+
+
+
+
+
+
+.the-pdf-software{
+    /* border: 1px solid green; */
+    /* padding-bottom: 450px; */
+    background-color: rgba(240, 255, 255, 0.288);
+}
+
+
+.the-pdf-software-h3{
+    text-align: center;
+    /* margin-top: 80px; */
+    padding-top: 80px;
+    font-size: 30px;
+    font-family: montserrat, sans-serif;
+    color: rgba(39, 39, 39, 0.938);
+    font-weight: normal;
+    /* font-weight: bold; */
+}
+
+.the-pdf-software-p{
+    text-align: center;
+    margin-top: 18px;
+    font-family: montserrat, sans-serif;
+    color: rgba(51, 51, 51, 0.774);
+    font-size: 20px;
+    /* font-weight: 0; */
+    letter-spacing: 0.5px;
+}
+
+.under-div{
+    margin: 12px 0 0px 0;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    color: rgba(51, 51, 51, 0.774);
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+}
+
+
+.under-div-2{
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    color: rgba(51, 51, 51, 0.774);
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+}
+
+
+
+.the-pdf-software-image{
+    /* border: 1px solid red; */
+    margin-top: 80px;
+    padding-bottom: 160px;
+}
+
+.the-pdf-software-image-div-1{
+    /* border: 1px solid green; */
+    float: left;
+    margin-left: 570px;
+    
+}
+.the-pdf-software-image-div-1 img{
+    height: 25px;
+    width: 60px;
+}
+
+
+.the-pdf-software-image-div-2{
+    /* border: 1px solid green; */
+    float: left;
+    margin-left: 125px;
+}
+.the-pdf-software-image-div-2 img{
+    height: 30px;
+}
+
+
+.the-pdf-software-image-div-3{
+    /* border: 1px solid green; */
+    float: left;
+    margin-left: 125px;
+
+}
+
+.the-pdf-software-image-div-3 img{
+    height: 30px;
+    width: 65px;
+    padding: 0;
+    margin: 0;
+}
