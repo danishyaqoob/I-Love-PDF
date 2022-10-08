@@ -67,6 +67,7 @@ margin: 0  25px 0 30px;
 .listparent li:hover{
     color: rgba(240, 59, 59, 0.938);
     cursor: pointer;
+    transition: 0.5s;
 }
 
 
@@ -109,6 +110,7 @@ padding: 14px;
 .main-header-right-1-1:hover{
     background-color: rgba(82, 78, 78, 0.685);
     cursor: pointer;
+    transition: 0.5s;
 }
 .main-header-right-1-1 h2{
     font-size: large;
@@ -126,6 +128,8 @@ padding: 14px;
     background-color: rgba(82, 78, 78, 0.685);
     color: white;
     cursor: pointer;
+    transition: 0.9s;
+
 }
 .main-header-right-1-2 h2{
     font-size: large;
